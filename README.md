@@ -1,5 +1,18 @@
- projet: gestion des licences logicielles
-cette projet permet a l'admin de gerer les licences(ajouter, modifier et supprimmer),
-elle contient aussi une fonctionnalite pour l'envoi de mail en cas ou la date de licence va bientot expirer
-et permet a l'utilisateur simple(User) de consulter les licences uniquement sans permission de les modifier.
+# Projet : Gestion des Licences Logicielles
 
+## Description
+Ce projet permet de gérer efficacement les licences logicielles. Il inclut des fonctionnalités pour les administrateurs et les utilisateurs simples avec des droits adaptés à chaque rôle.
+
+---
+
+## Fonctionnalités
+
+### Administrateur (Admin)
+- Ajouter une licence.
+- Modifier une licence existante.
+- Supprimer une licence.
+- Envoyer une notification par e-mail en cas de date d'expiration imminente.
+
+### Utilisateur Simple (User)
+- Consulter les informations des licences.
+- Accès en lecture seule (pas de permissions pour modifier, ajouter ou supprimer).
